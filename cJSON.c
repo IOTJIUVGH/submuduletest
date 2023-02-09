@@ -155,7 +155,7 @@ static void * CJSON_CDECL internal_realloc(void *pointer, size_t size)
 #define static_strlen(string_literal) (sizeof(string_literal) - sizeof(""))
 
 static internal_hooks global_hooks = { internal_malloc, internal_free, internal_realloc };
-
+//test
 static unsigned char* cJSON_strdup(const unsigned char* string, const internal_hooks * const hooks)
 {
     size_t length = 0;
